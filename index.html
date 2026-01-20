@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/todo icon.png" type="image/x-icon">
+    <title>Todo App</title>
+    <!-- fonts -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <!-- sweetAlert2 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/sweetalert2@11.26.17/dist/sweetalert2.min.css"
+      rel="stylesheet"
+    />
+    <!-- fontAwesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- tosterAlert    -->
+    <!-- علشان متعملش مشاكل ف الديزين بتاعها css لازم احطها بعد فيل  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+    />
+  </head>
+  <body>
+    <section class="w-75 m-auto my-lg-5 my-3">
+      <!-- status-bar -->
+      <div
+        class="status-bar p-3 rounded shadow mb-4 d-flex  align-items-center justify-content-between"
+      >
+        <div class="flex-grow-1">
+          <h1 class="h2">Todo App</h1>
+          <span class="small">keep It Up!</span>
+
+          <div class="inner rounded overflow-hidden mt-2">
+            <div class="chiled rounded"></div>
+          </div>
+        </div>
+        <div
+          class="status-number rounded-circle bg-body bg-opacity-50 d-flex align-items-center justify-content-center shadow-lg border border-secondary-subtle"
+        >
+          <span class="fw-semibold">0</span>/<span class="fw-semibold">0</span>
+        </div>
+      </div>
+
+      <form class="mx-auto d-md-flex gap-md-5 gap-2 text-center shadow p-4">
+        <input
+          type="text "
+          class="form-control shadow input-form"
+          placeholder="Task To Be Done...."
+        />
+        <button
+          type="submit"
+          class="save-data px-md-4 py-md-3 px-2 py-1 mt-2 mt-md-0 rounded shadow"
+        >
+          Seve_Data
+        </button>
+      </form>
+
+      <ul class="task-cotainer mt-5 rounded shadow p-3 d-none">
+    </ul>
+    
+      
+    </section>
+
+    <!-- loding -->
+    <div class="loding d-none">
+     <span class="loader"></span>
+    </div>
+<footer class="text-center border-top py-3">
+    <h6>Made By Eng/Abdo_Ayman</h6>
+</footer>
+    <!-- jqery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+      integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- sweetAlert -->
+    <script src="
+https://cdn.jsdelivr.net/npm/sweetalert2@11.26.17/dist/sweetalert2.all.min.js
+"></script>
+    <!-- tosterAlert -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+    <!-- bootStrap -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- js -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
