@@ -1,6 +1,13 @@
 * {
   box-sizing: border-box;
 }
+/* .dark{
+  background: linear-gradient(
+    239deg,
+    rgba(0, 0, 0, 0.674) 
+  );
+  color: #5c0c0c;
+} */
 body {
   background: linear-gradient(
     239deg,
